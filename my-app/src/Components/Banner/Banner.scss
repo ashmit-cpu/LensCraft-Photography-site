@@ -1,0 +1,29 @@
+.banner_img {
+    position: relative;
+
+    .bg-img {
+        width: 100%;
+        filter: brightness(46%);
+        position: relative;
+    }
+
+    .logo {
+        width: 36%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        filter: brightness(98%);
+    }
+
+    @media all and (max-width: 576px) {
+        .logo {
+            width: 45%;
+
+        }
+    }
+
+
+
+
+}

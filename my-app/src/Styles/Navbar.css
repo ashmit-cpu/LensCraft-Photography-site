@@ -1,0 +1,29 @@
+.Navbar.active {
+  transform: translateY(0);
+  transition: 0.4s all ease-in;
+  position: fixed;
+  background-color: white;
+  z-index: 50;
+  opacity: 1;
+  width: 100%;
+}
+.Navbar.active ul {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.Navbar.active ul li {
+  list-style: none;
+  padding-right: 50px;
+}
+.Navbar.active ul li a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.Navbar {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: 0.4s all ease-in;
+  opacity: 0;
+}
