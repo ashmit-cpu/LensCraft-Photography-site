@@ -1,6 +1,6 @@
 @use '../../Partials/variables';
 .About {
-    height: 500px;
+    height: 530px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,6 +10,8 @@
     .container {
         text-align: center;
         max-width: 900px;
+        padding: 20px;
+
         h2{
             color: variables.$light_brown;
             font-size: 30px;

@@ -9,7 +9,7 @@ function Navbar() {
 
 
     const handleNavbar = () =>{
-        if(window.scrollY >600){
+        if(window.scrollY >460){
             setnavbar(true)
         }else{
             setnavbar(false)

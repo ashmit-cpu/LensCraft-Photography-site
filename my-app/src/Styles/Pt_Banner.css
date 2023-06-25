@@ -1,0 +1,45 @@
+.Pt_Banner {
+  height: 580px;
+  background: url("https://shotkit.com/wp-content/uploads/2023/01/famous-fashion-photographers-tima-miroshnichenko.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.Pt_Banner .container {
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+.Pt_Banner .container .card {
+  background-color: rgba(109, 109, 109, 0.9098039216);
+  text-align: center;
+  padding: 50px;
+  transition: 0.3s ease-in;
+}
+.Pt_Banner .container .card:hover {
+  background-color: #6e6e5c;
+}
+.Pt_Banner .container .card h2 {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.Pt_Banner .container .card p {
+  color: gainsboro;
+  padding-bottom: 20px;
+}
+.Pt_Banner .container .card a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #d6823e;
+  color: white;
+  padding: 12px;
+  transition: 0.3s ease-in;
+}
+.Pt_Banner .container .card a:hover {
+  background-color: #3a4a53;
+  transition: 0.3s ease-in;
+}

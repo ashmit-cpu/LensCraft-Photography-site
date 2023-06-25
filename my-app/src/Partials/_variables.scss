@@ -1,1 +1,24 @@
-$light_brown:#F0964A
+$light_brown: #F0964A;
+$dark_brown: #d6823e;
+$dark_gray: #808080;
+$light_gray: #6e6e5c;
+$dark_blue: #3a4a53;
+
+
+@mixin transition {
+    transition: 0.3s ease-in;
+}
+
+@mixin button_style {
+    text-decoration: none;
+    display: inline-block;
+    background-color: $dark_brown;
+    color: white;
+    padding: 12px;
+    @include transition;
+
+    &:hover {
+        background-color: $dark_blue;
+        @include transition;
+    }
+}
