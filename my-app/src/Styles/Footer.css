@@ -1,0 +1,100 @@
+.Footer {
+  background-color: #6e6e5c;
+  padding: 50px;
+}
+@media all and (max-width: 576px) {
+  .Footer {
+    padding: 20px;
+    padding-top: 60px;
+  }
+}
+.Footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media all and (max-width: 576px) {
+  .Footer .container {
+    flex-direction: column;
+    justify-content: left;
+  }
+}
+.Footer .container .links {
+  display: flex;
+}
+.Footer .container .links ul {
+  margin-right: 80px;
+}
+.Footer .container .links ul li {
+  list-style: none;
+  padding: 6px;
+}
+@media all and (max-width: 576px) {
+  .Footer .container .links ul li {
+    padding: 3px;
+  }
+}
+.Footer .container .links ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  position: relative;
+}
+.Footer .container .links ul li a:hover {
+  color: rgb(207, 207, 207);
+  transition: 0.3s ease-in;
+}
+.Footer .container .links ul li a:hover + hr,
+.Footer .container .links ul li a:hover ~ hr {
+  width: 100%;
+}
+.Footer .container .links ul li hr {
+  margin-top: 5px;
+  width: 0;
+  border: none;
+  border-top: 3px solid rgb(255, 255, 255);
+  height: 2px;
+  transition: width 350ms ease-in-out;
+}
+.Footer .container .logo img {
+  width: 300px;
+}
+@media all and (max-width: 576px) {
+  .Footer .container .logo img {
+    width: 260px;
+  }
+}
+.Footer .container .address .details p {
+  color: white;
+  padding-bottom: 20px;
+}
+@media all and (max-width: 576px) {
+  .Footer .container .address .details p {
+    padding-bottom: 16px;
+  }
+}
+.Footer .container .address .details a {
+  color: white;
+  text-decoration: none;
+}
+.Footer .container .address .details a:hover {
+  text-decoration: underline;
+}
+.Footer .container .address .social-media {
+  margin-top: 40px;
+}
+@media all and (max-width: 576px) {
+  .Footer .container .address .social-media {
+    margin-top: 20px;
+  }
+}
+.Footer .container .address .social-media a {
+  color: #d6823e;
+  padding-right: 20px;
+  font-size: 18px;
+}
+.Footer .container .address .social-media a:hover {
+  color: white;
+  transition: 0.3s ease-in;
+}

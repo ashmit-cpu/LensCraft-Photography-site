@@ -1,3 +1,6 @@
+@use '../../Partials/variables';
+
+
 .Navbar.active {
     transform: translateY(0);
     transition: 0.4s all ease-in;
@@ -6,22 +9,72 @@
     z-index: 50;
     opacity: 1;
     width: 100%;
-    -webkit-box-shadow: 0px 0px 12px -5px rgba(61,61,61,1);
-    -moz-box-shadow: 0px 0px 12px -5px rgba(61,61,61,1);
-    box-shadow: 0px 0px 12px -5px rgba(61,61,61,1);
+    -webkit-box-shadow: 0px 0px 12px -5px rgba(61, 61, 61, 1);
+    -moz-box-shadow: 0px 0px 12px -5px rgba(61, 61, 61, 1);
+    box-shadow: 0px 0px 12px -5px rgba(61, 61, 61, 1);
+
+    @media all and (max-width: 576px) {
+        height: 54px;
+    }
+
+    .logo {
+        position: fixed;
+        top: 8px;
+        left: 24px;
+
+        img {
+            width: 120px;
+
+            @media all and (max-width: 576px) {
+                width: 110px;
+            }
+        }
+    }
+
+    #openMenu {
+        display: none;
+
+        @media all and (max-width: 576px) {
+            display: block;
+            position: fixed;
+            right: 24px;
+            top: 13px;
+            font-size: 20px;
+        }
+    }
 
     ul {
         display: flex;
         justify-content: center;
         padding: 15px;
 
+        @media all and (max-width: 576px) {
+            display: none;
+        }
+
         li {
             list-style: none;
             padding-right: 50px;
 
+
             a {
                 text-decoration: none;
                 display: inline-block;
+                color: variables.$dark_brown;
+            }
+
+            a:hover+hr,
+            a:hover~hr {
+                width: 100%;
+            }
+
+            hr {
+                margin-top: 5px;
+                width: 0;
+                border: none;
+                border-top: 3px solid variables.$dark_brown;
+                height: 2px;
+                transition: width 350ms ease-in-out;
             }
         }
     }
@@ -32,4 +85,58 @@
     transform: translateY(-100%);
     transition: 0.4s all ease-in;
     opacity: 0;
+}
+
+.Navbar-mob {
+    display: none;
+
+}
+
+
+@media all and (max-width: 576px) {
+    .Navbar-mob.active {
+        position: fixed;
+        top: 0;
+        left: 40%;
+        right: 0;
+        bottom: 0;
+        background-color: variables.$darker_gray;
+        z-index: 55;
+        transform: translateX(0%);
+        opacity: 1;
+        transition:all 0.4s ease-in;
+
+        #closeMenu{
+            position: absolute;
+            right: 24px;
+            top: 10px;
+            font-size: 24px;
+            color: white;
+        }
+        ul{
+            padding-top: 50px;
+            position: absolute;
+            left: 25%;
+
+            li{
+                list-style: none;
+                padding: 20px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .Navbar-mob{
+        position: fixed;
+        display: initial;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: 0.4s translate ease-in;
+
+
+    }
+
 }
