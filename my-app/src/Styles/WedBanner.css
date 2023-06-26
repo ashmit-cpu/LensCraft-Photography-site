@@ -1,18 +1,18 @@
-.Pt_Banner {
+.WebBanner {
   height: 580px;
-  background: url("https://i.ytimg.com/vi/4OfyPNF3l5E/maxresdefault.jpg");
+  background: url("https://www.clphotography.co.uk/portfolio/files/imgFull-48679.jpg");
   background-attachment: fixed;
   background-size: cover;
+  background-position: 16px;
 }
 @media all and (max-width: 576px) {
-  .Pt_Banner {
-    background: url("https://i.pinimg.com/originals/99/db/92/99db92e3a037003804632bbf324e6b28.jpg");
-    background-attachment: fixed;
+  .WebBanner {
+    background: url("https://www.clphotography.co.uk/portfolio/files/imgFull-48672.jpg");
     background-size: cover;
-    background-position: -100px;
+    background-attachment: fixed;
   }
 }
-.Pt_Banner .container {
+.WebBanner .container {
   display: flex;
   justify-content: center;
   max-width: 900px;
@@ -21,40 +21,40 @@
   height: 100%;
   padding: 20px;
 }
-.Pt_Banner .container .card {
+.WebBanner .container .card {
   background-color: rgba(109, 109, 109, 0.9098039216);
   text-align: center;
   padding: 50px;
   transition: 0.3s ease-in;
 }
 @media all and (max-width: 576px) {
-  .Pt_Banner .container .card {
+  .WebBanner .container .card {
     padding: 18px;
   }
 }
-.Pt_Banner .container .card:hover {
+.WebBanner .container .card:hover {
   background-color: #6e6e5c;
 }
-.Pt_Banner .container .card h2 {
+.WebBanner .container .card h2 {
   color: white;
   font-size: 30px;
   padding-bottom: 20px;
 }
 @media all and (max-width: 576px) {
-  .Pt_Banner .container .card h2 {
+  .WebBanner .container .card h2 {
     font-size: 20px;
   }
 }
-.Pt_Banner .container .card p {
+.WebBanner .container .card p {
   color: gainsboro;
   padding-bottom: 20px;
 }
 @media all and (max-width: 576px) {
-  .Pt_Banner .container .card p {
+  .WebBanner .container .card p {
     font-size: 14px;
   }
 }
-.Pt_Banner .container .card a {
+.WebBanner .container .card a {
   text-decoration: none;
   display: inline-block;
   background-color: #d6823e;
@@ -62,7 +62,7 @@
   padding: 12px;
   transition: 0.3s ease-in;
 }
-.Pt_Banner .container .card a:hover {
+.WebBanner .container .card a:hover {
   background-color: #3a4a53;
   transition: 0.3s ease-in;
 }

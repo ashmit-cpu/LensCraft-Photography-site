@@ -1,21 +1,21 @@
 @use '../../Partials/variables';
 
-
-.Pt_Banner {
+.WebBanner {
     height: 580px;
-    background: url("https://i.ytimg.com/vi/4OfyPNF3l5E/maxresdefault.jpg");
+    background: url("https://www.clphotography.co.uk/portfolio/files/imgFull-48679.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-position: 16px;
 
     @media all and (max-width: 576px) {
-        background: url("https://i.pinimg.com/originals/99/db/92/99db92e3a037003804632bbf324e6b28.jpg");
-        background-attachment: fixed;
+        background: url("https://www.clphotography.co.uk/portfolio/files/imgFull-48672.jpg");
         background-size: cover;
-        background-position: -100px;
+        background-attachment: fixed;
+
 
     }
 
-    // https://iso.500px.com/wp-content/uploads/2020/08/stock-photo-240662573.jpg
+    // https://www.clphotography.co.uk/portfolio/files/imgFull-48672.jpg
     .container {
         display: flex;
         justify-content: center;
@@ -24,7 +24,6 @@
         align-items: center;
         height: 100%;
         padding: 20px;
-
 
         .card {
             background-color: #6d6d6de8;
@@ -65,5 +64,4 @@
 
         }
     }
-
 }

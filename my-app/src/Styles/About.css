@@ -6,6 +6,11 @@
   border: 2px solid #F0964A;
   margin: 20px;
 }
+@media all and (max-width: 576px) {
+  .About {
+    height: 400px;
+  }
+}
 .About .container {
   text-align: center;
   max-width: 900px;
@@ -15,8 +20,18 @@
   color: #F0964A;
   font-size: 30px;
 }
+@media all and (max-width: 576px) {
+  .About .container h2 {
+    font-size: 22px;
+  }
+}
 .About .container p {
   text-align: center;
+}
+@media all and (max-width: 576px) {
+  .About .container p {
+    font-size: 12px;
+  }
 }
 .About .container hr {
   width: 60%;

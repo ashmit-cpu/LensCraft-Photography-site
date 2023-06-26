@@ -3,14 +3,30 @@
   margin: 20px;
   border: 2px solid #F0964A;
 }
+@media all and (max-width: 576px) {
+  .Review {
+    padding: 5% 0;
+    margin: 15px;
+  }
+}
 .Review h2 {
   text-align: center;
   padding-bottom: 40px;
   color: #F0964A;
   font-size: 30px;
 }
+@media all and (max-width: 576px) {
+  .Review h2 {
+    font-size: 24px;
+  }
+}
 .Review .review-carousel .carousel-cell {
   width: 33%;
+}
+@media all and (max-width: 768px) {
+  .Review .review-carousel .carousel-cell {
+    width: 50%;
+  }
 }
 .Review .review-carousel .card {
   margin: 20px;
@@ -19,8 +35,20 @@
   background-color: rgb(223, 223, 223);
   transition: 0.3s ease-in;
 }
+@media all and (max-width: 576px) {
+  .Review .review-carousel .card {
+    margin: 4px;
+    padding: 10px;
+  }
+}
 .Review .review-carousel .card .card-content p {
   padding-top: 15px;
+}
+@media all and (max-width: 576px) {
+  .Review .review-carousel .card .card-content p {
+    font-size: 10px;
+    padding-top: 8px;
+  }
 }
 .Review .review-carousel .card:hover {
   -webkit-box-shadow: 0px 5px 7px -2px rgba(0, 0, 0, 0.75);
@@ -47,11 +75,22 @@
   background-color: #3a4a53;
   transition: 0.3s ease-in;
 }
+@media all and (max-width: 576px) {
+  .Review .book-now a {
+    margin-top: 60px;
+    font-size: 16px;
+  }
+}
 
 .fa.fa-star.checked {
   color: orange;
 }
 
+@media all and (max-width: 576px) {
+  .fa.fa-star {
+    font-size: 10px;
+  }
+}
 .flickity-page-dot.is-selected,
 .flickity-page-dot:focus,
 .flickity-page-dot.is-selected:focus,
@@ -63,4 +102,11 @@
 .flickity-button.flickity-prev-next-button.previous:focus,
 .flickity-button.flickity-prev-next-button.next:focus {
   box-shadow: 0 0 0 5px rgb(163, 163, 163);
+}
+
+@media all and (max-width: 576px) {
+  .flickity-button.flickity-prev-next-button.next,
+  .flickity-button.flickity-prev-next-button.previous {
+    display: none;
+  }
 }

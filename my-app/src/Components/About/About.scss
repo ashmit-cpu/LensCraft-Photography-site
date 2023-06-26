@@ -1,4 +1,5 @@
 @use '../../Partials/variables';
+
 .About {
     height: 530px;
     display: flex;
@@ -7,24 +8,43 @@
     border: 2px solid variables.$light_brown;
     margin: 20px;
 
+    @media all and (max-width: 576px) {
+        height: 400px;
+
+    }
+
+
     .container {
         text-align: center;
         max-width: 900px;
         padding: 20px;
 
-        h2{
+        h2 {
             color: variables.$light_brown;
             font-size: 30px;
+
+            @media all and (max-width: 576px) {
+                font-size: 22px;
+
+            }
         }
-        p{
+
+        p {
             text-align: center;
+
+            @media all and (max-width: 576px) {
+                font-size: 12px;
+            }
+
         }
-        hr{
+
+        hr {
             width: 60%;
             height: 2px;
             margin: 20px auto;
             border: none;
-            background: rgb(240,150,74);
-            background: radial-gradient(circle, rgba(240,150,74,1) 3%, rgba(255,163,86,1) 28%, rgba(255,228,204,1) 80%);}
+            background: rgb(240, 150, 74);
+            background: radial-gradient(circle, rgba(240, 150, 74, 1) 3%, rgba(255, 163, 86, 1) 28%, rgba(255, 228, 204, 1) 80%);
+        }
     }
 }

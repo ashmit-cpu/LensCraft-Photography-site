@@ -1,5 +1,21 @@
 .banner_img {
     position: relative;
+    .bg-mob-img{
+        display: none;
+    }
+
+    @media all and (max-width: 576px) {
+        .bg-img {
+            display: none;
+        }
+
+        .bg-mob-img {
+            display: block;
+            width: 100%;
+            filter: brightness(60%);
+            position: relative;
+        }
+    }
 
     .bg-img {
         width: 100%;

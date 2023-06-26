@@ -5,16 +5,32 @@
     margin: 20px;
     border: 2px solid variables.$light_brown;
 
+    @media all and (max-width: 576px) {
+        padding: 5% 0;
+        margin: 15px;
+
+    }
+
     h2 {
         text-align: center;
         padding-bottom: 40px;
         color: variables.$light_brown;
         font-size: 30px;
+
+        @media all and (max-width: 576px) {
+            font-size: 24px;
+
+        }
     }
 
     .review-carousel {
         .carousel-cell {
             width: 33%;
+
+            @media all and (max-width: 768px) {
+                width: 50%;
+
+            }
 
         }
 
@@ -25,10 +41,21 @@
             background-color: rgb(223, 223, 223);
             @include variables.transition;
 
+            @media all and (max-width: 576px) {
+                margin: 4px;
+                padding: 10px;
+
+            }
+
 
             .card-content {
                 p {
                     padding-top: 15px;
+
+                    @media all and (max-width: 576px) {
+                        font-size: 10px;
+                        padding-top: 8px;
+                    }
                 }
             }
 
@@ -41,14 +68,21 @@
             }
         }
     }
-    .book-now{
+
+    .book-now {
         display: flex;
         justify-content: center;
-        a{
+
+        a {
             margin-top: 80px;
             @include variables.button_style;
             font-size: 18px;
-            
+
+            @media all and (max-width: 576px) {
+                margin-top: 60px;
+                font-size: 16px;
+            }
+
         }
 
     }
@@ -57,6 +91,14 @@
 
 .fa.fa-star.checked {
     color: orange;
+}
+
+@media all and (max-width: 576px) {
+
+    .fa.fa-star {
+        font-size: 10px;
+    }
+
 }
 
 .flickity-page-dot.is-selected,
@@ -70,5 +112,14 @@
 .flickity-button.flickity-prev-next-button.previous:focus,
 .flickity-button.flickity-prev-next-button.next:focus {
     box-shadow: 0 0 0 5px rgb(163, 163, 163);
+
+}
+
+@media all and (max-width: 576px) {
+
+    .flickity-button.flickity-prev-next-button.next,
+    .flickity-button.flickity-prev-next-button.previous {
+        display: none;
+    }
 
 }
