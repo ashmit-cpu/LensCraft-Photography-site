@@ -21,6 +21,9 @@
         position: fixed;
         top: 8px;
         left: 24px;
+        @media all and (max-width: 576px) {
+            left: 14px;
+        }
 
         img {
             width: 120px;

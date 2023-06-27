@@ -163,7 +163,7 @@ function Review() {
 
                 </div>
                 <div className="book-now">
-                    <a href="#">Book Now</a>
+                    <a href="#/">Book Now</a>
                 </div>
             </div>
         </div>

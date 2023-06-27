@@ -20,6 +20,11 @@
   top: 8px;
   left: 24px;
 }
+@media all and (max-width: 576px) {
+  .Navbar.active .logo {
+    left: 14px;
+  }
+}
 .Navbar.active .logo img {
   width: 120px;
 }

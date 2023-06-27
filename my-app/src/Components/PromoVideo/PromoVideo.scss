@@ -1,0 +1,16 @@
+@use '../../Partials/variables';
+
+
+#player{
+    height: 600px;
+    @media all and (max-width: 576px) {
+        height: 300px;
+
+    }
+}
+:root {
+    --plyr-color-main:#d6823e;
+  }
+  
+
+

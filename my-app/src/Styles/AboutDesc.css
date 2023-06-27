@@ -1,0 +1,43 @@
+.AboutDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #F0964A;
+  margin: 20px;
+  background-color: white;
+}
+.AboutDesc .container {
+  text-align: center;
+  max-width: 900px;
+  padding: 146px 20px;
+}
+@media all and (max-width: 576px) {
+  .AboutDesc .container {
+    padding: 50px 20px;
+  }
+}
+.AboutDesc .container h2 {
+  color: #F0964A;
+  font-size: 30px;
+}
+@media all and (max-width: 576px) {
+  .AboutDesc .container h2 {
+    font-size: 22px;
+  }
+}
+.AboutDesc .container p {
+  text-align: center;
+}
+@media all and (max-width: 576px) {
+  .AboutDesc .container p {
+    font-size: 12px;
+  }
+}
+.AboutDesc .container hr {
+  width: 60%;
+  height: 2px;
+  margin: 20px auto;
+  border: none;
+  background: rgb(240, 150, 74);
+  background: radial-gradient(circle, rgb(240, 150, 74) 3%, rgb(255, 163, 86) 28%, rgb(255, 228, 204) 80%);
+}

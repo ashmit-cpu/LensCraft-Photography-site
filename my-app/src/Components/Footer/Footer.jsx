@@ -11,26 +11,26 @@ function Footer() {
                     <div className="section">
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a href="#/">Home</a>
                                 <hr />
                             </li>
                             <li>
-                                <a href="#">Book Now</a>
-                                <hr />
-
-                            </li>
-                            <li>
-                                <a href="#">About</a>
+                                <a href="#/">Book Now</a>
                                 <hr />
 
                             </li>
                             <li>
-                                <a href="#">Gallery</a>
+                                <a href="#/">About</a>
                                 <hr />
 
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a href="#/">Gallery</a>
+                                <hr />
+
+                            </li>
+                            <li>
+                                <a href="#/">Services</a>
                                 <hr />
 
                             </li>
@@ -39,27 +39,27 @@ function Footer() {
                     <div className="section">
                         <ul>
                             <li>
-                                <a href="#">Testimonials</a>
+                                <a href="#/">Testimonials</a>
                                 <hr />
 
                             </li>
                             <li>
-                                <a href="#">Blog</a>
+                                <a href="#/">Blog</a>
                                 <hr />
 
                             </li>
                             <li>
-                                <a href="#">Pricing</a>
+                                <a href="#/">Pricing</a>
+                                <hr />
+/
+                            </li>
+                            <li>
+                                <a href="#/">FAQs</a>
                                 <hr />
 
                             </li>
                             <li>
-                                <a href="#">FAQs</a>
-                                <hr />
-
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
+                                <a href="#/">Contact</a>
                                 <hr />
 
                             </li>

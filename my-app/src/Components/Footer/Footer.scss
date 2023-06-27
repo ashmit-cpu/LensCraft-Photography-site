@@ -1,7 +1,7 @@
 @use '../../Partials/variables';
 
 .Footer {
-    background-color: variables.$light_gray;
+    background-color: variables.$darker_gray;
     padding: 50px;
     @media all and (max-width: 576px){
           padding: 20px; 

@@ -20,16 +20,16 @@ function Navbar() {
 
     // togglebar function
 
-   const [menuOpen,setMenuOpen] =useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
 
-   const handleOpenMenu = () =>{
-    setMenuOpen(true);
-   }
+    const handleOpenMenu = () => {
+        setMenuOpen(true);
+    }
 
-   const handleCloseMenu = () =>{
-    setMenuOpen(false);
-   }
-  
+    const handleCloseMenu = () => {
+        setMenuOpen(false);
+    }
+
 
     return (
         <div>
@@ -39,12 +39,12 @@ function Navbar() {
                 </div>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="\">Home</a>
                         <hr />
 
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="about">About</a>
                         <hr />
 
                     </li>
@@ -62,22 +62,24 @@ function Navbar() {
                 <div id="openMenu" onClick={handleOpenMenu}><i className="fa fa-bars"></i></div>
 
             </div>
-            <div className={menuOpen?'Navbar-mob active':'Navbar-mob'}>
-                <div id="closeMenu" onClick={handleCloseMenu}><i className="fa-solid fa-xmark"></i></div>
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
+            <div className={menuOpen ? 'Navbar-mob active' : 'Navbar-mob'}>
+                <div className="menu-content">
+                    <div id="closeMenu" onClick={handleCloseMenu}><i className="fa-solid fa-xmark"></i></div>
+                    <ul>
+                        <li>
+                            <a href="\">Home</a>
+                        </li>
+                        <li>
+                            <a href="about">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
 
 
             </div>
