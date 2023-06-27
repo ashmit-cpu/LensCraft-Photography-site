@@ -12,6 +12,11 @@
   filter: brightness(60%);
   position: relative;
 }
+@media all and (max-width: 890px) {
+  .AboutBanner .container .bg-overlay {
+    background-position: -300px;
+  }
+}
 @media all and (max-width: 576px) {
   .AboutBanner .container .bg-overlay {
     background: url("https://wallpaperaccess.com/full/1640112.jpg");

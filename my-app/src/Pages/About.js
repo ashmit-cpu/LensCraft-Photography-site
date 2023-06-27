@@ -4,6 +4,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import Footer from '../Components/Footer/Footer'
 import AboutDesc from '../Components/About_Desc/AboutDesc'
 import PromoVideo from '../Components/PromoVideo/PromoVideo'
+import SmGallery from '../Components/SmallGallery/SmGallery'
 
 function About() {
   return (
@@ -12,6 +13,7 @@ function About() {
       <AboutBanner />
       <AboutDesc/>
       <PromoVideo/>
+      <SmGallery/>
       <Footer/>
     </div>
   )
