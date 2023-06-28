@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../Styles/AboutBanner.css'
+import '../../Styles/ContactBanner.css'
 import { Link } from 'react-router-dom'
 
 
-function AboutBanner() {
+function ContactBanner() {
     return (
-        <div className='AboutBanner'>
+        <div className='ContactBanner'>
             <div className="container">
                 <div className="bg-overlay">
 
@@ -17,12 +17,13 @@ function AboutBanner() {
 
                 </div>
                 <div className="text">
-                    <h2>About</h2>
+                    <h2>Contact Us</h2>
                 </div>
 
             </div>
+
         </div>
     )
 }
 
-export default AboutBanner
+export default ContactBanner

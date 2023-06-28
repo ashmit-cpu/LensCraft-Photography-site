@@ -59,10 +59,18 @@
   list-style: none;
   padding-right: 50px;
 }
+@media all and (max-width: 768px) {
+  .Navbar.active ul li {
+    padding-right: 26px;
+  }
+}
 .Navbar.active ul li a {
   text-decoration: none;
   display: inline-block;
   color: #d6823e;
+}
+.Navbar.active ul li a:active, .Navbar.active ul li a:focus {
+  color: brown;
 }
 .Navbar.active ul li a:hover + hr,
 .Navbar.active ul li a:hover ~ hr {

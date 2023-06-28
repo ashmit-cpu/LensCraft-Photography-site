@@ -4,19 +4,9 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom';
 
 
-function Navbar() {
-
-    const [navbar, setnavbar] = useState(false);
+function AbtNavbar() {
 
 
-    const handleNavbar = () => {
-        if (window.scrollY > 260) {
-            setnavbar(true)
-        } else {
-            setnavbar(false)
-        }
-    }
-    window.addEventListener('scroll', handleNavbar)
 
 
     // togglebar function
@@ -34,7 +24,7 @@ function Navbar() {
 
     return (
         <div>
-            <div className={navbar ? 'Navbar active' : 'Navbar'}>
+            <div className='Navbar active'>
                 <div className="logo">
                     <Link to="/">
                         <img src="assets/img/logo-black.png" alt="" />
@@ -91,4 +81,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default AbtNavbar

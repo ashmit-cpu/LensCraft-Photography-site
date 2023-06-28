@@ -1,0 +1,133 @@
+.ContactDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #F0964A;
+  margin: 20px;
+}
+.ContactDetails .container {
+  text-align: center;
+  padding: 100px 20px;
+}
+@media all and (max-width: 576px) {
+  .ContactDetails .container {
+    padding: 50px 10px;
+  }
+}
+.ContactDetails .container .row {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+.ContactDetails .container .row .col {
+  padding: 0 6vw;
+  text-align: left;
+}
+@media all and (max-width: 576px) {
+  .ContactDetails .container .row .col {
+    padding: 0 0;
+  }
+}
+.ContactDetails .container .row .col .text {
+  display: flex;
+  padding-bottom: 20px;
+}
+@media all and (max-width: 576px) {
+  .ContactDetails .container .row .col .text {
+    padding-bottom: 26px;
+  }
+}
+.ContactDetails .container .row .col .text span {
+  padding-right: 10px;
+  font-size: 18px;
+  color: #F0964A;
+}
+.ContactDetails .container .row .col h3 {
+  color: #6e6e5c;
+  font-size: 26px;
+  padding-bottom: 2px;
+  margin-left: 24px;
+}
+@media all and (max-width: 576px) {
+  .ContactDetails .container .row .col h3 {
+    font-size: 20px;
+  }
+}
+.ContactDetails .container .row .col.form form div {
+  padding: 10px;
+}
+.ContactDetails .container .row .col.form form div input {
+  height: 40px;
+  width: 350px;
+}
+.ContactDetails .container .row .col.form form div input::placeholder {
+  padding-left: 10px;
+}
+.ContactDetails .container .row .col.form form div input:focus {
+  background-color: rgb(255, 245, 224);
+}
+@media all and (max-width: 576px) {
+  .ContactDetails .container .row .col.form form div input {
+    width: 280px;
+  }
+}
+@media all and (max-width: 378px) {
+  .ContactDetails .container .row .col.form form div input {
+    width: 200px;
+  }
+}
+.ContactDetails .container .row .col.form form div textarea {
+  height: 80px;
+  width: 350px;
+}
+.ContactDetails .container .row .col.form form div textarea::placeholder {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.ContactDetails .container .row .col.form form div textarea:focus {
+  background-color: rgb(255, 245, 224);
+}
+@media all and (max-width: 576px) {
+  .ContactDetails .container .row .col.form form div textarea {
+    width: 280px;
+  }
+}
+@media all and (max-width: 378px) {
+  .ContactDetails .container .row .col.form form div textarea {
+    width: 200px;
+  }
+}
+.ContactDetails .container .row .col.form form button {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #d6823e;
+  color: white;
+  padding: 12px;
+  transition: 0.3s ease-in;
+  border: none;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.ContactDetails .container .row .col.form form button:hover {
+  background-color: #3a4a53;
+  transition: 0.3s ease-in;
+}
+.ContactDetails .container h2 {
+  color: #F0964A;
+  font-size: 30px;
+}
+@media all and (max-width: 576px) {
+  .ContactDetails .container h2 {
+    font-size: 22px;
+  }
+}
+.ContactDetails .container hr {
+  width: 60%;
+  height: 2px;
+  margin: 20px auto;
+  border: none;
+  background: rgb(240, 150, 74);
+  background: radial-gradient(circle, rgb(240, 150, 74) 3%, rgb(255, 163, 86) 28%, rgb(255, 228, 204) 80%);
+}

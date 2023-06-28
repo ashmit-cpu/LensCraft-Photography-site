@@ -11,7 +11,7 @@ function Footer() {
                     <div className="section">
                         <ul>
                             <li>
-                                <a href="#/">Home</a>
+                                <a href="/">Home</a>
                                 <hr />
                             </li>
                             <li>
@@ -20,12 +20,12 @@ function Footer() {
 
                             </li>
                             <li>
-                                <a href="#/">About</a>
+                                <a href="about">About</a>
                                 <hr />
 
                             </li>
                             <li>
-                                <a href="#/">Gallery</a>
+                                <a href="gallery">Gallery</a>
                                 <hr />
 
                             </li>

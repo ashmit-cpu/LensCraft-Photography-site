@@ -3,9 +3,10 @@
 .Footer {
     background-color: variables.$darker_gray;
     padding: 50px;
-    @media all and (max-width: 576px){
-          padding: 20px; 
-          padding-top: 60px;         
+
+    @media all and (max-width: 576px) {
+        padding: 20px;
+        padding-top: 40px;
     }
 
     .container {
@@ -13,35 +14,43 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+
         @media all and (max-width: 576px) {
             flex-direction: column;
-        justify-content:left;
+            justify-content: left;
 
         }
 
 
         .links {
             display: flex;
-            
+
 
             ul {
-                margin-right: 80px;
-                
+                padding-right: 80px;
+
+                @media all and (max-width: 576px) {
+                    padding: 20px;
+
+                }
+
 
                 li {
                     list-style: none;
                     padding: 6px;
+
                     @media all and (max-width: 576px) {
                         padding: 3px;
-              
-                      }
+
+                    }
 
                     a {
                         text-decoration: none;
                         color: white;
                         font-weight: 600;
                         position: relative;
-                        &:hover{
+
+                        &:hover {
                             color: rgb(207, 207, 207);
                             @include variables.transition;
 
@@ -70,49 +79,56 @@
 
         }
 
-        .logo{
-            img{
+        .logo {
+            img {
                 width: 300px;
-                @media all and (max-width: 576px){
+
+                @media all and (max-width: 576px) {
                     width: 260px;
                 }
             }
         }
 
-        .address{
-            .details{
-                p{
+        .address {
+            .details {
+                p {
                     color: white;
                     padding-bottom: 20px;
+
                     @media all and (max-width: 576px) {
                         padding-bottom: 16px;
-                      }
+                    }
                 }
-                a{
+
+                a {
                     color: white;
                     text-decoration: none;
-                    &:hover{
+
+                    &:hover {
                         text-decoration: underline;
                     }
                 }
             }
-            .social-media{
+
+            .social-media {
                 margin-top: 40px;
+
                 @media all and (max-width: 576px) {
                     margin-top: 20px;
-          
-                  }
-                
 
-                a{
+                }
+
+
+                a {
                     color: variables.$dark_brown;
                     padding-right: 20px;
                     font-size: 18px;
-                    &:hover{
+
+                    &:hover {
                         color: white;
                         @include variables.transition;
                     }
-                    
+
                 }
 
             }

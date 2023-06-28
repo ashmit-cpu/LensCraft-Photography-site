@@ -58,12 +58,20 @@
         li {
             list-style: none;
             padding-right: 50px;
+            @media all and (max-width: 768px) {
+                padding-right: 26px;
+            }
 
 
             a {
                 text-decoration: none;
                 display: inline-block;
                 color: variables.$dark_brown;
+                &:active,
+                &:focus{
+                    color: brown;
+
+                }
             }
 
             a:hover+hr,

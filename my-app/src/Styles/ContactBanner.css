@@ -1,0 +1,58 @@
+.ContactBanner {
+  position: relative;
+}
+.ContactBanner .container {
+  position: relative;
+}
+.ContactBanner .container .bg-overlay {
+  height: 75vh;
+  background: url("https://images.pexels.com/photos/4065800/pexels-photo-4065800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-attachment: fixed;
+  background-size: cover;
+  filter: brightness(60%);
+  position: relative;
+  background-position: center -130px;
+  background-repeat: no-repeat;
+}
+@media all and (max-width: 768px) {
+  .ContactBanner .container .bg-overlay {
+    background-position: center -60px;
+  }
+}
+@media all and (max-width: 576px) {
+  .ContactBanner .container .bg-overlay {
+    height: 70vh;
+  }
+}
+.ContactBanner .container .logo {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
+.ContactBanner .container .logo img {
+  width: 260px;
+}
+@media all and (max-width: 576px) {
+  .ContactBanner .container .logo img {
+    width: 170px;
+  }
+}
+.ContactBanner .container h2 {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+@media all and (max-width: 768px) {
+  .ContactBanner .container h2 {
+    font-size: 36px;
+  }
+}
+@media all and (max-width: 576px) {
+  .ContactBanner .container h2 {
+    font-size: 36px;
+    white-space: nowrap;
+  }
+}

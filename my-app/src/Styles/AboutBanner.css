@@ -5,25 +5,23 @@
   position: relative;
 }
 .AboutBanner .container .bg-overlay {
-  height: 580px;
+  height: 76vh;
   background: url("https://wallpaperaccess.com/full/1640112.jpg");
   background-attachment: fixed;
   background-size: cover;
   filter: brightness(60%);
   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-@media all and (max-width: 890px) {
+@media all and (max-width: 768px) {
   .AboutBanner .container .bg-overlay {
-    background-position: -300px;
+    background-position: center -60px;
   }
 }
 @media all and (max-width: 576px) {
   .AboutBanner .container .bg-overlay {
-    background: url("https://wallpaperaccess.com/full/1640112.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    height: 540px;
-    background-position: 800px;
+    height: 70vh;
   }
 }
 .AboutBanner .container .logo {

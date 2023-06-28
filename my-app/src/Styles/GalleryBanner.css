@@ -1,0 +1,44 @@
+.GalleryBanner {
+  position: relative;
+}
+.GalleryBanner .container {
+  position: relative;
+}
+.GalleryBanner .container .bg-overlay {
+  height: 75vh;
+  background: url("https://wallpaperaccess.com/full/7640226.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  filter: brightness(60%);
+  position: relative;
+  background-position: center -130px;
+  background-repeat: no-repeat;
+}
+@media all and (max-width: 768px) {
+  .GalleryBanner .container .bg-overlay {
+    background-position: center -60px;
+  }
+}
+@media all and (max-width: 576px) {
+  .GalleryBanner .container .bg-overlay {
+    height: 70vh;
+  }
+}
+.GalleryBanner .container h2 {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+@media all and (max-width: 768px) {
+  .GalleryBanner .container h2 {
+    font-size: 36px;
+  }
+}
+@media all and (max-width: 576px) {
+  .GalleryBanner .container h2 {
+    font-size: 40px;
+  }
+}

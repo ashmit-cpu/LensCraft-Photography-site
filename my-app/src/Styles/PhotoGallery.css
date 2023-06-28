@@ -1,0 +1,26 @@
+.PhotoGallery {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+.PhotoGallery .container .lg-react-element {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  width: 76vw;
+}
+@media all and (max-width: 576px) {
+  .PhotoGallery .container .lg-react-element {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+.PhotoGallery .container .lg-react-element img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+.PhotoGallery .container .lg-react-element img:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in;
+  filter: brightness(80%);
+}

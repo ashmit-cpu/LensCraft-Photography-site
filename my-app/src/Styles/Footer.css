@@ -5,7 +5,7 @@
 @media all and (max-width: 576px) {
   .Footer {
     padding: 20px;
-    padding-top: 60px;
+    padding-top: 40px;
   }
 }
 .Footer .container {
@@ -24,7 +24,12 @@
   display: flex;
 }
 .Footer .container .links ul {
-  margin-right: 80px;
+  padding-right: 80px;
+}
+@media all and (max-width: 576px) {
+  .Footer .container .links ul {
+    padding: 20px;
+  }
 }
 .Footer .container .links ul li {
   list-style: none;

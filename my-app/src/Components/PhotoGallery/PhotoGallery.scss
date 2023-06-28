@@ -1,0 +1,35 @@
+@use '../../Partials/variables';
+
+.PhotoGallery {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+
+    .container {
+        .lg-react-element {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+            width: 76vw;
+            @media all and (max-width: 576px){
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+            }
+           
+
+            img {
+                width: 100%;
+                height: 260px;
+                object-fit: cover;
+                &:hover{
+                    transform: scale(1.02);
+                    @include variables.transition;
+                    filter: brightness(80%);
+                }
+
+            }
+        }
+
+
+    }
+}
