@@ -48,8 +48,8 @@ function PhotoGallery() {
                     </a>
 
 
-                    <a href="https://i.pinimg.com/474x/09/2e/9a/092e9aed9ea7c56bcdbeb0cda6609bc2.jpg">
-                        <img alt="img6" src="https://i.pinimg.com/474x/09/2e/9a/092e9aed9ea7c56bcdbeb0cda6609bc2.jpg" />
+                    <a href="https://www.clphotography.co.uk/portfolio/files/imgFull-48677.jpg">
+                        <img alt="img6" src="https://www.clphotography.co.uk/portfolio/files/imgFull-48677.jpg" />
                     </a>
 
 
@@ -89,8 +89,8 @@ function PhotoGallery() {
                         <img alt="img15" src="https://i.pinimg.com/564x/96/d6/74/96d6748356b7da8aca6a71563dfa54ea.jpg" />
                     </a>
 
-                    <a href="https://modernteen.co/wp-content/uploads/2023/04/94fd4eec8171e68f99d52a3a32e8063a.jpeg">
-                        <img alt="img16" src="https://modernteen.co/wp-content/uploads/2023/04/94fd4eec8171e68f99d52a3a32e8063a.jpeg" />
+                    <a href="https://i.pinimg.com/564x/c2/57/8a/c2578acd994c19a058e475c4f04a9cc3.jpg">
+                        <img alt="img16" src="https://i.pinimg.com/564x/c2/57/8a/c2578acd994c19a058e475c4f04a9cc3.jpg" />
                     </a>
                     <a href="https://photos.smugmug.com/photos/i-gDSDQWh/0/L/i-gDSDQWh-L.jpg">
                         <img alt="img17" src="https://photos.smugmug.com/photos/i-gDSDQWh/0/L/i-gDSDQWh-L.jpg" />
@@ -101,8 +101,8 @@ function PhotoGallery() {
                     <a href="https://img.freepik.com/premium-photo/portrait-young-woman-with-red-dress_855221-442.jpg">
                         <img alt="img19" src="https://img.freepik.com/premium-photo/portrait-young-woman-with-red-dress_855221-442.jpg" />
                     </a>
-                    <a href="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1525891879-379720-warren-wong-242286-unsplashjpg.jpg">
-                        <img alt="img20" src="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1525891879-379720-warren-wong-242286-unsplashjpg.jpg" />
+                    <a href="https://i.pinimg.com/564x/73/ce/42/73ce429d3fcac2a412d026fe08d6bde1.jpg">
+                        <img alt="img20" src="https://i.pinimg.com/564x/73/ce/42/73ce429d3fcac2a412d026fe08d6bde1.jpg" />
                     </a>
 
                 </LightGallery>
