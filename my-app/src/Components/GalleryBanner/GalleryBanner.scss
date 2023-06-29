@@ -1,3 +1,5 @@
+@use '../../Partials/variables';
+
 .GalleryBanner {
     position: relative;
 
@@ -33,6 +35,8 @@
             left: 50%;
             transform: translate(-50%, -50%);
             font-size: 60px;
+            @include variables.Playfair-Semibold;
+
 
             @media all and (max-width: 768px) {
                 font-size: 36px;

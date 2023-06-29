@@ -20,6 +20,7 @@
         h2 {
             color: variables.$light_brown;
             font-size: 30px;
+            @include variables.Playfair-Semibold-italic;
 
             @media all and (max-width: 576px) {
                 font-size: 22px;
@@ -29,6 +30,7 @@
 
         p {
             text-align: center;
+            @include variables.open-sans-italic;
 
             @media all and (max-width: 576px) {
                 font-size: 12px;

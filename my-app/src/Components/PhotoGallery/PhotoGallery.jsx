@@ -28,8 +28,8 @@ function PhotoGallery() {
                     </a>
 
 
-                    <a href="assets/img/about-gallerya9f39b.jpg">
-                        <img alt="img2" src="assets/img/about-gallerya9f39b.jpg" />
+                    <a href="https://www.newindianmodels.com/wp-content/uploads/2020/09/Walking-pose-male-model-poses.jpg">
+                        <img alt="img2" src="https://www.newindianmodels.com/wp-content/uploads/2020/09/Walking-pose-male-model-poses.jpg" />
                     </a>
 
 
@@ -49,48 +49,60 @@ function PhotoGallery() {
 
 
                     <a href="https://i.pinimg.com/474x/09/2e/9a/092e9aed9ea7c56bcdbeb0cda6609bc2.jpg">
-                        <img alt="img1" src="https://i.pinimg.com/474x/09/2e/9a/092e9aed9ea7c56bcdbeb0cda6609bc2.jpg" />
+                        <img alt="img6" src="https://i.pinimg.com/474x/09/2e/9a/092e9aed9ea7c56bcdbeb0cda6609bc2.jpg" />
                     </a>
 
 
                     <a href="https://i.pinimg.com/564x/38/54/54/385454c603d3a2fc92eafdb30fe7b462.jpg">
-                        <img alt="img1" src="https://i.pinimg.com/564x/38/54/54/385454c603d3a2fc92eafdb30fe7b462.jpg" />
+                        <img alt="img7" src="https://i.pinimg.com/564x/38/54/54/385454c603d3a2fc92eafdb30fe7b462.jpg" />
                     </a>
 
                     <a href="https://i.pinimg.com/564x/ce/ba/23/ceba2303eadd931f3d5e0ca1192b9698.jpg">
-                        <img alt="img1" src="https://i.pinimg.com/564x/ce/ba/23/ceba2303eadd931f3d5e0ca1192b9698.jpg" />
+                        <img alt="img8" src="https://i.pinimg.com/564x/ce/ba/23/ceba2303eadd931f3d5e0ca1192b9698.jpg" />
                     </a>
 
                     <a href="https://i.pinimg.com/564x/f8/44/a5/f844a5af52c33e38f90e606c3693bc8c.jpg">
-                        <img alt="img1" src="https://i.pinimg.com/564x/f8/44/a5/f844a5af52c33e38f90e606c3693bc8c.jpg" />
+                        <img alt="img9" src="https://i.pinimg.com/564x/f8/44/a5/f844a5af52c33e38f90e606c3693bc8c.jpg" />
                     </a>
 
                     <a href="https://i.pinimg.com/564x/33/82/cb/3382cbe05aa49a045d2d227b97a40cb5.jpg">
-                        <img alt="img1" src="https://i.pinimg.com/564x/33/82/cb/3382cbe05aa49a045d2d227b97a40cb5.jpg" />
+                        <img alt="img10" src="https://i.pinimg.com/564x/33/82/cb/3382cbe05aa49a045d2d227b97a40cb5.jpg" />
                     </a>
 
                     <a href="https://i.pinimg.com/236x/73/78/5d/73785dac544872504ec7203666d39de6.jpg">
-                        <img alt="img1" src="https://i.pinimg.com/236x/73/78/5d/73785dac544872504ec7203666d39de6.jpg" />
+                        <img alt="img11" src="https://i.pinimg.com/236x/73/78/5d/73785dac544872504ec7203666d39de6.jpg" />
                     </a>
 
-                    <a href="https://i.pinimg.com/236x/f0/bc/0b/f0bc0b17dc1a40361e86030011e69d25.jpg">
-                        <img alt="img1" src="https://i.pinimg.com/236x/f0/bc/0b/f0bc0b17dc1a40361e86030011e69d25.jpg" />
+                    <a href="https://bidunart.com/wp-content/uploads/2019/12/Portrait064a-1280x640.jpg">
+                        <img alt="img12" src="https://bidunart.com/wp-content/uploads/2019/12/Portrait064a-1280x640.jpg" />
                     </a>
 
                     <a href="https://lirp.cdn-website.com/28cd0bb4/dms3rep/multi/opt/traditional+american+wedding-640w.jpeg">
-                        <img alt="img1" src="https://lirp.cdn-website.com/28cd0bb4/dms3rep/multi/opt/traditional+american+wedding-640w.jpeg" />
+                        <img alt="img13" src="https://lirp.cdn-website.com/28cd0bb4/dms3rep/multi/opt/traditional+american+wedding-640w.jpeg" />
                     </a>
 
                     <a href="https://www.rangefinderonline.com/wp-content/uploads/2019/05/featuredAmanda_Alex_Yosemite_Elopement_The_Foxes_Photography_232-2.jpg">
-                        <img alt="img1" src="https://www.rangefinderonline.com/wp-content/uploads/2019/05/featuredAmanda_Alex_Yosemite_Elopement_The_Foxes_Photography_232-2.jpg" />
+                        <img alt="img14" src="https://www.rangefinderonline.com/wp-content/uploads/2019/05/featuredAmanda_Alex_Yosemite_Elopement_The_Foxes_Photography_232-2.jpg" />
                     </a>
 
                     <a href="https://i.pinimg.com/564x/96/d6/74/96d6748356b7da8aca6a71563dfa54ea.jpg">
-                        <img alt="img1" src="https://i.pinimg.com/564x/96/d6/74/96d6748356b7da8aca6a71563dfa54ea.jpg" />
+                        <img alt="img15" src="https://i.pinimg.com/564x/96/d6/74/96d6748356b7da8aca6a71563dfa54ea.jpg" />
                     </a>
 
                     <a href="https://modernteen.co/wp-content/uploads/2023/04/94fd4eec8171e68f99d52a3a32e8063a.jpeg">
-                        <img alt="img1" src="https://modernteen.co/wp-content/uploads/2023/04/94fd4eec8171e68f99d52a3a32e8063a.jpeg" />
+                        <img alt="img16" src="https://modernteen.co/wp-content/uploads/2023/04/94fd4eec8171e68f99d52a3a32e8063a.jpeg" />
+                    </a>
+                    <a href="https://photos.smugmug.com/photos/i-gDSDQWh/0/L/i-gDSDQWh-L.jpg">
+                        <img alt="img17" src="https://photos.smugmug.com/photos/i-gDSDQWh/0/L/i-gDSDQWh-L.jpg" />
+                    </a>
+                    <a href="https://i.pinimg.com/originals/8b/07/3c/8b073cd8b513cd11567b129d381e85e8.jpg">
+                        <img alt="img18" src="https://i.pinimg.com/originals/8b/07/3c/8b073cd8b513cd11567b129d381e85e8.jpg" />
+                    </a>
+                    <a href="https://img.freepik.com/premium-photo/portrait-young-woman-with-red-dress_855221-442.jpg">
+                        <img alt="img19" src="https://img.freepik.com/premium-photo/portrait-young-woman-with-red-dress_855221-442.jpg" />
+                    </a>
+                    <a href="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1525891879-379720-warren-wong-242286-unsplashjpg.jpg">
+                        <img alt="img20" src="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1525891879-379720-warren-wong-242286-unsplashjpg.jpg" />
                     </a>
 
                 </LightGallery>

@@ -49,6 +49,7 @@
                         color: white;
                         font-weight: 600;
                         position: relative;
+                        @include variables.open-sans-italic;
 
                         &:hover {
                             color: rgb(207, 207, 207);
@@ -94,6 +95,9 @@
                 p {
                     color: white;
                     padding-bottom: 20px;
+                    @include variables.open-sans-italic;
+                    
+
 
                     @media all and (max-width: 576px) {
                         padding-bottom: 16px;
@@ -103,6 +107,9 @@
                 a {
                     color: white;
                     text-decoration: none;
+                    @include variables.open-sans-italic;
+
+
 
                     &:hover {
                         text-decoration: underline;

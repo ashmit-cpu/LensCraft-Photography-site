@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Raleway:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 .Pt_Banner {
   height: 580px;
   background: url("https://i.ytimg.com/vi/4OfyPNF3l5E/maxresdefault.jpg");
@@ -39,6 +40,9 @@
   color: white;
   font-size: 30px;
   padding-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
 }
 @media all and (max-width: 576px) {
   .Pt_Banner .container .card h2 {
@@ -48,6 +52,9 @@
 .Pt_Banner .container .card p {
   color: gainsboro;
   padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 @media all and (max-width: 576px) {
   .Pt_Banner .container .card p {
@@ -61,6 +68,9 @@
   color: white;
   padding: 12px;
   transition: 0.3s ease-in;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .Pt_Banner .container .card a:hover {
   background-color: #3a4a53;

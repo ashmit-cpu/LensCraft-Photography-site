@@ -12,13 +12,16 @@ function AbtNavbar() {
     // togglebar function
 
     const [menuOpen, setMenuOpen] = useState(false);
+    const [overlay, setOverlay] = useState(false);
 
     const handleOpenMenu = () => {
         setMenuOpen(true);
+        setOverlay(true);
     }
 
     const handleCloseMenu = () => {
         setMenuOpen(false);
+        setOverlay(false);
     }
 
 
@@ -73,7 +76,8 @@ function AbtNavbar() {
                         </li>
                     </ul>
                 </div>
-
+            </div>
+            <div className={overlay ? 'overlay active' : 'overlay'}>
 
             </div>
         </div>

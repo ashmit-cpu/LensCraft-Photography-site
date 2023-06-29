@@ -12,6 +12,8 @@
             grid-gap: 10px;
             width: 76vw;
             @media all and (max-width: 576px){
+            width: 94vw;
+
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
             }

@@ -15,7 +15,6 @@
 
     }
 
-    // https://iso.500px.com/wp-content/uploads/2020/08/stock-photo-240662573.jpg
     .container {
         display: flex;
         justify-content: center;
@@ -44,6 +43,7 @@
                 color: white;
                 font-size: 30px;
                 padding-bottom: 20px;
+                @include variables.Playfair-Semibold-italic;
 
                 @media all and (max-width: 576px) {
                     font-size: 20px;
@@ -53,6 +53,7 @@
             p {
                 color: gainsboro;
                 padding-bottom: 20px;
+                @include variables.open-sans-italic;
 
                 @media all and (max-width: 576px) {
                     font-size: 14px;

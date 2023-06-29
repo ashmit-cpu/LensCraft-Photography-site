@@ -43,6 +43,7 @@
                 color: white;
                 font-size: 30px;
                 padding-bottom: 20px;
+                @include variables.Playfair-Semibold-italic;
 
                 @media all and (max-width: 576px) {
                     font-size: 20px;
@@ -52,6 +53,7 @@
             p {
                 color: gainsboro;
                 padding-bottom: 20px;
+                @include variables.open-sans-italic;
 
                 @media all and (max-width: 576px) {
                     font-size: 14px;

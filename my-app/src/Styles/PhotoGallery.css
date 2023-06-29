@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Raleway:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 .PhotoGallery {
   display: flex;
   padding-top: 20px;
@@ -11,6 +12,7 @@
 }
 @media all and (max-width: 576px) {
   .PhotoGallery .container .lg-react-element {
+    width: 94vw;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }

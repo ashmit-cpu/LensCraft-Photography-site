@@ -16,6 +16,7 @@
         padding-bottom: 40px;
         color: variables.$light_brown;
         font-size: 30px;
+        @include variables.Playfair-Semibold-italic;
 
         @media all and (max-width: 576px) {
             font-size: 24px;
@@ -49,8 +50,12 @@
 
 
             .card-content {
+                h4{
+                    @include variables.open-sans-semibold;
+                }
                 p {
                     padding-top: 15px;
+                    @include variables.raleway-regular;
 
                     @media all and (max-width: 576px) {
                         font-size: 10px;
