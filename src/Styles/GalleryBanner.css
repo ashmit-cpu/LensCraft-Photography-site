@@ -22,7 +22,7 @@
 }
 @media all and (max-width: 576px) {
   .GalleryBanner .container .bg-overlay {
-    height: 70vh;
+    background-attachment: scroll;
   }
 }
 .GalleryBanner .container h2 {

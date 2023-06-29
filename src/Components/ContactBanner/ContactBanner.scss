@@ -22,11 +22,13 @@
             }
 
             @media all and (max-width: 576px) {
-                height: 70vh;
+                background-attachment: scroll;
+
 
             }
 
         }
+
         .logo {
             position: absolute;
             top: 10px;

@@ -6,12 +6,15 @@
     background: url("https://i.ytimg.com/vi/4OfyPNF3l5E/maxresdefault.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 
+    @media all and (max-width: 768px){
+        background-position: left;
+    }
     @media all and (max-width: 576px) {
         background: url("https://i.pinimg.com/originals/99/db/92/99db92e3a037003804632bbf324e6b28.jpg");
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
-        background-position: -100px;
 
     }
 

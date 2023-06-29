@@ -22,7 +22,7 @@
 }
 @media all and (max-width: 576px) {
   .ContactBanner .container .bg-overlay {
-    height: 70vh;
+    background-attachment: scroll;
   }
 }
 .ContactBanner .container .logo {

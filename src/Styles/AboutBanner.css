@@ -23,6 +23,7 @@
 @media all and (max-width: 576px) {
   .AboutBanner .container .bg-overlay {
     height: 70vh;
+    background-attachment: scroll;
   }
 }
 .AboutBanner .container .logo {
