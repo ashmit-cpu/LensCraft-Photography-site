@@ -1,6 +1,7 @@
 .banner_img {
     position: relative;
-    .bg-mob-img{
+
+    .bg-mob-img {
         display: none;
     }
 
@@ -14,6 +15,11 @@
             width: 100%;
             filter: brightness(60%);
             position: relative;
+
+            @media all and (max-width:576px) {
+                height: 80vh;
+                object-fit: cover;
+            }
         }
     }
 

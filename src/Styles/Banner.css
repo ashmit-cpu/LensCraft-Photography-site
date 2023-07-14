@@ -15,6 +15,12 @@
     position: relative;
   }
 }
+@media all and (max-width: 576px) and (max-width: 576px) {
+  .banner_img .bg-mob-img {
+    height: 80vh;
+    object-fit: cover;
+  }
+}
 .banner_img .bg-img {
   width: 100%;
   filter: brightness(60%);
