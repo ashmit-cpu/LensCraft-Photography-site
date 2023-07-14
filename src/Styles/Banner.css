@@ -17,7 +17,7 @@
 }
 @media all and (max-width: 576px) and (max-width: 576px) {
   .banner_img .bg-mob-img {
-    height: 80vh;
+    height: 70vh;
     object-fit: cover;
   }
 }
