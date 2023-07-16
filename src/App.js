@@ -5,7 +5,6 @@ import About from './Pages/About';
 import Gallery from './Pages/Gallery';
 import Contact from './Pages/Contact';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
-import { MenuProvider } from './Context/MenuProvider';
 
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <ScrollToTop />
-        <MenuProvider>
           <Routes>
             <Route path="/" element={<Home />}>
             </Route>
@@ -25,7 +23,6 @@ function App() {
             </Route>
 
           </Routes>
-        </MenuProvider>
       </BrowserRouter>
 
     </div>
