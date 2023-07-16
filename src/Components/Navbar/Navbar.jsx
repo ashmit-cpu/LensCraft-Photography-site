@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../../Styles/Navbar.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
+import MenuContext from '../../Context/MenuProvider';
 
 
 function Navbar() {
 
     const [navbar, setnavbar] = useState(false);
+    const {menuOpen,handleOpenMenu,overlay,handleCloseMenu} = useContext(MenuContext);
 
 
     const handleNavbar = () => {
@@ -21,18 +23,18 @@ function Navbar() {
 
     // togglebar function
 
-    const [menuOpen, setMenuOpen] = useState(false);
-    const [overlay,setOverlay] = useState(false);
+    // const [menuOpen, setMenuOpen] = useState(false);
+    // const [overlay,setOverlay] = useState(false);
 
-    const handleOpenMenu = () => {
-        setMenuOpen(true);
-        setOverlay(true);
-    }
+    // const handleOpenMenu = () => {
+    //     setMenuOpen(true);
+    //     setOverlay(true);
+    // }
 
-    const handleCloseMenu = () => {
-        setMenuOpen(false);
-        setOverlay(false);
-    }
+    // const handleCloseMenu = () => {
+    //     setMenuOpen(false);
+    //     setOverlay(false);
+    // }
 
 
     return (

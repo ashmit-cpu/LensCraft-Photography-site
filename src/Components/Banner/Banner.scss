@@ -1,5 +1,23 @@
+@use '../../Partials/variables';
+
 .banner_img {
     position: relative;
+
+    #openMenu {
+        display: none;
+
+        @media all and (max-width:576px) {
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            z-index: 50;
+            color: white;
+        }
+    }
+
+
+    @include variables.banner_navbar;
 
     .bg-mob-img {
         display: none;

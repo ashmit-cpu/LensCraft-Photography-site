@@ -6,6 +6,21 @@
     .container {
         position: relative;
 
+        #openMenu {
+            display: none;
+
+            @media all and (max-width:576px) {
+                display: block;
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                z-index: 50;
+                color: white;
+            }
+        }
+
+        @include variables.banner_navbar;
+
         .bg-overlay {
             height: 75vh;
             background: url("https://images.pexels.com/photos/4065800/pexels-photo-4065800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -35,10 +50,10 @@
             left: 16px;
 
             img {
-                width: 260px;
+                width: 180px;
 
-                @media all and (max-width: 576px) {
-                    width: 170px;
+                @media all and (max-width: 992px) {
+                    width: 150px;
 
                 }
             }

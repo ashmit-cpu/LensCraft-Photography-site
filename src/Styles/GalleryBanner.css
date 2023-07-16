@@ -5,6 +5,62 @@
 .GalleryBanner .container {
   position: relative;
 }
+.GalleryBanner .container #openMenu {
+  display: none;
+}
+@media all and (max-width: 576px) {
+  .GalleryBanner .container #openMenu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 50;
+    color: white;
+  }
+}
+.GalleryBanner .container ul {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  left: 50%;
+  list-style: none;
+  transform: translate(-50%);
+}
+@media all and (max-width: 576px) {
+  .GalleryBanner .container ul {
+    display: none;
+  }
+}
+.GalleryBanner .container ul li {
+  padding: 20px 26px;
+}
+@media all and (max-width: 768px) {
+  .GalleryBanner .container ul li {
+    padding: 10px 8px;
+  }
+}
+.GalleryBanner .container ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  transition: all 0.2s ease-in;
+}
+@media all and (max-width: 768px) {
+  .GalleryBanner .container ul li a {
+    font-size: 14px;
+  }
+}
+.GalleryBanner .container ul li a:hover {
+  background: rgba(255, 255, 255, 0.136);
+  backdrop-filter: saturate(180%) blur(10px);
+  transition: all 0.2s ease-in;
+}
 .GalleryBanner .container .bg-overlay {
   height: 75vh;
   background: url("https://wallpaperaccess.com/full/7640226.jpg");
@@ -23,6 +79,19 @@
 @media all and (max-width: 576px) {
   .GalleryBanner .container .bg-overlay {
     background-attachment: scroll;
+  }
+}
+.GalleryBanner .container .logo {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
+.GalleryBanner .container .logo img {
+  width: 180px;
+}
+@media all and (max-width: 992px) {
+  .GalleryBanner .container .logo img {
+    width: 150px;
   }
 }
 .GalleryBanner .container h2 {

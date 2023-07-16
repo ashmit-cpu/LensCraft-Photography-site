@@ -1,5 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Raleway:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 .banner_img {
   position: relative;
+}
+.banner_img #openMenu {
+  display: none;
+}
+@media all and (max-width: 576px) {
+  .banner_img #openMenu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 50;
+    color: white;
+  }
+}
+.banner_img ul {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  left: 50%;
+  list-style: none;
+  transform: translate(-50%);
+}
+@media all and (max-width: 576px) {
+  .banner_img ul {
+    display: none;
+  }
+}
+.banner_img ul li {
+  padding: 20px 26px;
+}
+@media all and (max-width: 768px) {
+  .banner_img ul li {
+    padding: 10px 8px;
+  }
+}
+.banner_img ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  transition: all 0.2s ease-in;
+}
+@media all and (max-width: 768px) {
+  .banner_img ul li a {
+    font-size: 14px;
+  }
+}
+.banner_img ul li a:hover {
+  background: rgba(255, 255, 255, 0.136);
+  backdrop-filter: saturate(180%) blur(10px);
+  transition: all 0.2s ease-in;
 }
 .banner_img .bg-mob-img {
   display: none;

@@ -58,6 +58,7 @@
 }
 .Navbar.active ul li {
   list-style: none;
+  display: block;
   padding-right: 50px;
 }
 @media all and (max-width: 768px) {
@@ -94,6 +95,15 @@
   transition: 0.4s all ease-in;
   opacity: 0;
 }
+.Navbar ul {
+  display: none;
+}
+.Navbar ul li {
+  display: none;
+}
+.Navbar ul li a {
+  display: none;
+}
 
 .Navbar-mob {
   display: none;
@@ -129,14 +139,17 @@
     padding-top: 50px;
     position: absolute;
     left: 25%;
+    display: block;
   }
   .Navbar-mob.active ul li {
     list-style: none;
     padding: 20px;
+    display: block;
   }
   .Navbar-mob.active ul li a {
     text-decoration: none;
     color: white;
+    display: block;
   }
   .overlay.active {
     position: fixed;
@@ -146,7 +159,8 @@
     visibility: visible;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to control transparency */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the alpha value to control transparency */
     z-index: 99;
     transition: opacity 0.4s ease-in;
   }
@@ -161,5 +175,14 @@
     transform: translateX(100%);
     opacity: 0;
     transition: 0.4s translate ease-in;
+  }
+  .Navbar-mob ul {
+    display: none;
+  }
+  .Navbar-mob ul li {
+    display: none;
+  }
+  .Navbar-mob ul li a {
+    display: none;
   }
 }

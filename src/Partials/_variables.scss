@@ -9,95 +9,165 @@
 
 
   @mixin transition {
-      transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
   }
 
   @mixin button_style {
-      text-decoration: none;
-      display: inline-block;
-      background-color: $dark_brown;
-      color: white;
-      padding: 12px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: $dark_brown;
+    color: white;
+    padding: 12px;
+    @include transition;
+    @include raleway-regular;
+
+    &:hover {
+      background-color: $dark_blue;
       @include transition;
-      @include raleway-regular;
+    }
+  }
 
-      &:hover {
-          background-color: $dark_blue;
-          @include transition;
+
+
+  @mixin banner_navbar {
+    ul {
+      background-color: transparent;
+      position: absolute;
+      top: 0;
+      z-index: 50;
+      display: flex;
+      left: 50%;
+      list-style: none;
+      transform: translate(-50%);
+
+      @media all and (max-width:576px) {
+        display: none;
       }
+
+      li {
+        padding: 20px 26px;
+
+        @media all and (max-width:768px) {
+          padding: 10px 8px;
+
+        }
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 16px;
+          padding: 10px 12px;
+          border-radius: 6px;
+          @include Playfair-regular-400;
+          transition: all 0.2s ease-in;
+
+          @media all and (max-width:768px) {
+            font-size: 14px;
+          }
+
+
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.136);
+            backdrop-filter: saturate(180%) blur(10px);
+            transition: all 0.2s ease-in;
+
+
+
+          }
+        }
+      }
+
+    }
   }
 
-//   @include variables.Playfair-regular-400;
+
+
+
+
+
+
+
+
+  //   @include variables.Playfair-regular-400;
   @mixin Playfair-regular-400 {
-      font-family: 'Playfair Display', serif;
-      font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
   }
-//   @include variables.Playfair-regular-400-italic;
+
+  //   @include variables.Playfair-regular-400-italic;
   @mixin Playfair-regular-400-italic {
 
-      font-family: 'Playfair Display', serif;
-      font-style: italic;
-      font-weight: 400;
-      
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+
   }
-// @include variables.Playfair-Medium-500;
+
+  // @include variables.Playfair-Medium-500;
   @mixin Playfair-Medium-500 {
 
-      font-family: 'Playfair Display', serif;
-      font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
   }
-// @include variables.Playfair-Medium-500-italic;
+
+  // @include variables.Playfair-Medium-500-italic;
   @mixin Playfair-Medium-500-italic {
 
-      font-family: 'Playfair Display', serif;
-      font-style: italic;
-      font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
   }
-// @include variables.Playfair-Semibold;
+
+  // @include variables.Playfair-Semibold;
   @mixin Playfair-Semibold {
 
-      font-family: 'Playfair Display', serif;
-      font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
   }
 
-//   @include variables.raleway-regular;
+  //   @include variables.raleway-regular;
   @mixin raleway-regular {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-//   @include variables.raleway-medium;
+
+  //   @include variables.raleway-medium;
   @mixin raleway-medium {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
   }
-//   @include variables.raleway-regular-italic;
+
+  //   @include variables.raleway-regular-italic;
   @mixin raleway-regular-italic {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-style: italic;
   }
 
-//   @include variables.Agdasima-regular;
-  @mixin Agdasima-regular{
+  //   @include variables.Agdasima-regular;
+  @mixin Agdasima-regular {
 
-      font-family: 'Agdasima', sans-serif;
-      font-weight: 400;
+    font-family: 'Agdasima', sans-serif;
+    font-weight: 400;
   }
-//   @include variables.open-sans-regular;
+
+  //   @include variables.open-sans-regular;
   @mixin open-sans-regular {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-//   @include variables.open-sans-semibold;
+
+  //   @include variables.open-sans-semibold;
   @mixin open-sans-semibold {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-style: normal;
   }
 
-//   @include variables.open-sans-light;
+  //   @include variables.open-sans-light;
   @mixin open-sans-light {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -110,15 +180,11 @@
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     font-style: italic;
-}
+  }
 
-//   @include variables.open-sans-italic;
+  //   @include variables.open-sans-italic;
   @mixin open-sans-italic {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: italic;
   }
-
-  
-  
-  

@@ -6,6 +6,22 @@
     .container {
         position: relative;
 
+        #openMenu {
+            display: none;
+
+            @media all and (max-width:576px) {
+                display: block;
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                z-index: 50;
+                color: white;
+            }
+        }
+
+
+        @include variables.banner_navbar;
+
         .bg-overlay {
             height: 75vh;
             background: url("https://wallpaperaccess.com/full/7640226.jpg");
@@ -27,6 +43,21 @@
 
             }
 
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 16px;
+
+            img {
+                width: 180px;
+
+                @media all and (max-width: 992px) {
+                    width: 150px;
+
+                }
+            }
         }
 
         h2 {

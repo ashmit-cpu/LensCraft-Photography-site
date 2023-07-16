@@ -5,6 +5,62 @@
 .AboutBanner .container {
   position: relative;
 }
+.AboutBanner .container #openMenu {
+  display: none;
+}
+@media all and (max-width: 576px) {
+  .AboutBanner .container #openMenu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 50;
+    color: white;
+  }
+}
+.AboutBanner .container ul {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  left: 50%;
+  list-style: none;
+  transform: translate(-50%);
+}
+@media all and (max-width: 576px) {
+  .AboutBanner .container ul {
+    display: none;
+  }
+}
+.AboutBanner .container ul li {
+  padding: 20px 26px;
+}
+@media all and (max-width: 768px) {
+  .AboutBanner .container ul li {
+    padding: 10px 8px;
+  }
+}
+.AboutBanner .container ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  transition: all 0.2s ease-in;
+}
+@media all and (max-width: 768px) {
+  .AboutBanner .container ul li a {
+    font-size: 14px;
+  }
+}
+.AboutBanner .container ul li a:hover {
+  background: rgba(255, 255, 255, 0.136);
+  backdrop-filter: saturate(180%) blur(10px);
+  transition: all 0.2s ease-in;
+}
 .AboutBanner .container .bg-overlay {
   height: 76vh;
   background: url("https://wallpaperaccess.com/full/1640112.jpg");
@@ -32,11 +88,11 @@
   left: 16px;
 }
 .AboutBanner .container .logo img {
-  width: 260px;
+  width: 180px;
 }
-@media all and (max-width: 576px) {
+@media all and (max-width: 992px) {
   .AboutBanner .container .logo img {
-    width: 170px;
+    width: 150px;
   }
 }
 .AboutBanner .container h2 {

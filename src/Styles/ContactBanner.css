@@ -5,6 +5,62 @@
 .ContactBanner .container {
   position: relative;
 }
+.ContactBanner .container #openMenu {
+  display: none;
+}
+@media all and (max-width: 576px) {
+  .ContactBanner .container #openMenu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 50;
+    color: white;
+  }
+}
+.ContactBanner .container ul {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  left: 50%;
+  list-style: none;
+  transform: translate(-50%);
+}
+@media all and (max-width: 576px) {
+  .ContactBanner .container ul {
+    display: none;
+  }
+}
+.ContactBanner .container ul li {
+  padding: 20px 26px;
+}
+@media all and (max-width: 768px) {
+  .ContactBanner .container ul li {
+    padding: 10px 8px;
+  }
+}
+.ContactBanner .container ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  transition: all 0.2s ease-in;
+}
+@media all and (max-width: 768px) {
+  .ContactBanner .container ul li a {
+    font-size: 14px;
+  }
+}
+.ContactBanner .container ul li a:hover {
+  background: rgba(255, 255, 255, 0.136);
+  backdrop-filter: saturate(180%) blur(10px);
+  transition: all 0.2s ease-in;
+}
 .ContactBanner .container .bg-overlay {
   height: 75vh;
   background: url("https://images.pexels.com/photos/4065800/pexels-photo-4065800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -31,11 +87,11 @@
   left: 16px;
 }
 .ContactBanner .container .logo img {
-  width: 260px;
+  width: 180px;
 }
-@media all and (max-width: 576px) {
+@media all and (max-width: 992px) {
   .ContactBanner .container .logo img {
-    width: 170px;
+    width: 150px;
   }
 }
 .ContactBanner .container h2 {
