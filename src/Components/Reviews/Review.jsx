@@ -28,7 +28,7 @@ function Review() {
         <div className='Review'>
             <div className="container">
                 <h2>Guest Reviews</h2>
-                <div className="review-carousel">
+                <div className="review-carousel"data-aos="fade-up">
                     <div className="carousel-cell">
                         <div className="card">
                             <div className="card-content">
@@ -163,7 +163,7 @@ function Review() {
 
                 </div>
                 <div className="book-now">
-                    <a href="#/">Book Now</a>
+                    <a href="#/"data-aos="fade">Book Now</a>
                 </div>
             </div>
         </div>

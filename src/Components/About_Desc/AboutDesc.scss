@@ -16,6 +16,7 @@
             padding: 50px 20px;
 
         }
+        @include variables.box-reveal-animation;
 
         h2 {
             color: variables.$light_brown;

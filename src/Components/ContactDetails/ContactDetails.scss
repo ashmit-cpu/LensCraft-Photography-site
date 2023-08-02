@@ -14,12 +14,17 @@
         @media all and (max-width: 576px){
             padding: 50px 10px;
         }
+        @include variables.box-reveal-animation;
+
 
         .row{
             display: flex;
             justify-content: center;
             padding-top: 10px;
             flex-wrap: wrap;
+            @include variables.custom-fade-right;
+            @include variables.custom-fade-left;
+
             .col{
                 padding:0 6vw;
                 text-align: left;
@@ -55,6 +60,7 @@
             }
 
             .col.form{
+
                 form{
                     div{
                         padding: 10px;

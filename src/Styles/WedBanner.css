@@ -36,6 +36,30 @@
 .WebBanner .container .card:hover {
   background-color: #6e6e5c;
 }
+.WebBanner .container .card .grey-box-reveal {
+  display: inline-block;
+  transition: 0.5s;
+  transform-origin: left;
+  transform: scaleX(1);
+  position: relative;
+}
+.WebBanner .container .card .grey-box-reveal::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -5px;
+  width: 110%;
+  height: 80%;
+  background: linear-gradient(90deg, rgb(109, 109, 109) 1%, rgb(180, 180, 175) 56%, rgb(171, 171, 171) 100%);
+  transform-origin: left;
+  transition: 0.5s ease-in;
+}
+.WebBanner .container .card .grey-box-reveal::before[data-aos=custom-grey-box-animation] {
+  transform: scaleX(1);
+}
+.WebBanner .container .card .grey-box-reveal.aos-init.aos-animate::before {
+  transform: scaleX(0);
+}
 .WebBanner .container .card h2 {
   color: white;
   font-size: 30px;

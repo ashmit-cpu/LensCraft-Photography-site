@@ -7,11 +7,11 @@ function Pt_Banner() {
             <div className="container">
                 <div className="card">
                     <div className="card-content">
-                        <h2>Portrait Photography</h2>
-                        <p>Focuses on capturing the essence and personality of individuals or groups, often in posed or candid shots. It can include professional headshots, family portraits, and lifestyle photography.
+                        <h2 className='grey-box-reveal'data-aos="custom-grey-box-animation">Portrait Photography</h2>
+                        <p data-aos="fade-up">Focuses on capturing the essence and personality of individuals or groups, often in posed or candid shots. It can include professional headshots, family portraits, and lifestyle photography.
                             In the context of models, portrait photography involves working closely with professional or aspiring models to create stunning images that enhance their portfolio or capture a specific theme or concept.
                         </p>
-                        <a href="#/">View Pricing & Information</a>
+                        <a href="#/"data-aos="fade">View Pricing & Information</a>
 
                     </div>
                 </div>

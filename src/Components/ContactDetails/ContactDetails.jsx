@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../Styles/ContactDetails.css'
-import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
@@ -8,10 +7,10 @@ function ContactDetails() {
     return (
         <div className='ContactDetails'>
             <div className="container">
-                <h2>YOU CAN REACH US AT...</h2>
+                <h2 className='box-reveal' data-aos="custom-box-animation">YOU CAN REACH US AT...</h2>
                 <hr />
                 <div className="row">
-                    <div className="col">
+                    <div className="col custom-fade-right"data-aos="custom-fade-right"data-aos-offset="200">
                         <h3>Give Us A Call</h3>
                         <div className="text">
                             <span><FontAwesomeIcon icon={faPhone} /></span><p>(858) 652-1810</p>
@@ -29,7 +28,7 @@ function ContactDetails() {
 
                         </div>
                     </div>
-                    <div className="col form">
+                    <div className="col form custom-fade-left"data-aos="custom-fade-left"data-aos-offset="200">
                         <form >
                             <div>
                                 <input type="text" id="name" placeholder='Name' />

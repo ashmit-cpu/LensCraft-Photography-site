@@ -18,7 +18,7 @@
         max-width: 900px;
         padding: 160px 20px;
         
-
+        @include variables.box-reveal-animation;
         h2 {
             color: variables.$light_brown;
             font-size: 30px;

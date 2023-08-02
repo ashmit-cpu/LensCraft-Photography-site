@@ -16,7 +16,7 @@ function PhotoGallery() {
     };
     return (
         <div className='PhotoGallery'>
-            <div className="container">
+            <div className="container"data-aos="fade-up"data-aos-offset="100">
                 <LightGallery
                     onInit={onInit}
                     speed={500}

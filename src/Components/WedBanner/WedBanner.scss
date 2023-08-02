@@ -38,6 +38,8 @@
             &:hover {
                 background-color: variables.$light_gray;
             }
+            @include variables.Grey-box-reveal-animation;
+
 
             h2 {
                 color: white;

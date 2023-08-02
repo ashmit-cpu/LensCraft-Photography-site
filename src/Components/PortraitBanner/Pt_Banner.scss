@@ -8,9 +8,10 @@
     background-size: cover;
     background-position: center;
 
-    @media all and (max-width: 768px){
+    @media all and (max-width: 768px) {
         background-position: left;
     }
+
     @media all and (max-width: 576px) {
         background: url("https://i.pinimg.com/originals/99/db/92/99db92e3a037003804632bbf324e6b28.jpg");
         background-attachment: scroll;
@@ -41,6 +42,8 @@
             &:hover {
                 background-color: variables.$light_gray;
             }
+            @include variables.Grey-box-reveal-animation;
+
 
             h2 {
                 color: white;
